@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #E2BEBE;
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-container img {
+    width: 350px;
+    height: 250px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input input {
+    width: 250px;
+    height: 30px;
+} 
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-entra, .btn-sair {
+    margin: 10px;
+    width: 75px;
+    height: 25px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.btn-entra {
+    color: black;
+    background: #42E934;
+}
+.btn-sair {
+    border: 2px solid black;
+    color: black;
+    background: #EA2727;
+}
+/*HOME*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+header nav, ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+}
+header li {
+    list-style: none;
+    margin: 10px;
+}
+header li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+header nav section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #FFF;
+    width: 200px;
+    height: 21px;
+}
+.search {
+    border: none;
+}
+header input {
+    border: none;
+}
+header section button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.img-search {
+    width: 15px;
+    height: 15px;
+}
+.perfil {
+    width: 40px;
+    height: 24.26px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+/* MAIN */
+.fundo {
+    display: block; 
+    width: 100%; 
+    height: 300px; 
+    background-image: url("./img/bannerpixelb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+.fundo h1 {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    color: black;
+    font-size: 36px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 4px;
+}
+.missao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+}
+.missao h3{
+    width:  60%;
+
+}
+/*sabores*/
+.sabores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.card {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px;
+    width: calc(33.33% - 70px);
+    box-sizing: border-box;
+    
+}
+.sabores article { 
+    display: flex;
+}
+.sabores img {
+    width: 253px;
+    height: 168px;
+}
+.sabores figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    width: 253px;
+    height: 162px;
+}
+.descricao {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 253px;
+    height: 162px;
+    background: #9B7382;
+
+}
+.descricao h4 {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.descricao p {
+    color: #FFF;
+    font-size: 17px;
+}
+.sabores button {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #a80171;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 130px;
+    height: 27px;
+    margin-top: 20px;
+}
+.sabores button:hover {
+    background-color: #530138;
+   
+}
+/*AVALIAÇÃO*/
+.avaliacao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.avaliacao article {
+    display: flex;
+    margin-top: 50px;
+}
+.avaliacao article section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 288px;
+    height: 168px;
+    font-size: 1rem;
+}
+.cliente {
+    width: 131px;
+    height: 131px;
+    border-radius: 150px;
+}
+.estrela {
+    width: 135px;
+}
+/*linha*/
+.linha {
+    border: none;
+    height: 3px;
+    background-color: black;
+    width: 70%;
+    margin: 20px auto;
+}
+/*novidades*/
+.novidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.novidades article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 1107px;
+    height: 392px;
+}
+.novidades section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 359px;
+}
+.novidades input {
+    width: 359px;
+    height: 42px;
+}
+.novidades button {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 130px;
+    height: 27px;
+    margin-top: 20px;
+}
+.novidades button:hover {
+    background-color: #218838;
+}
+.novidades img {
+    width: 612px;
+    height: 393px;
+    margin-right: 10px;
+}
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D9D9D9;
+    margin-top: 60px;
+    height: 200px;
+}
+.contato article {
+    margin: 40px;
+    width: 283px;
+    height: 106px;
+}
+.contato h3 {
+    margin-bottom: 10px;
+}
+
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .contact01 img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+
+  }
+
+  .contact01 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
